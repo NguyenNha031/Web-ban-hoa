@@ -1,0 +1,258 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+button:hover {
+    cursor: pointer;
+    opacity: 0.8;
+}
+a {
+    text-decoration: none;
+    color: #856563;
+}
+body {
+    background-color: #ededef;
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: #856563;
+}
+.container{
+    width: 90%;
+    margin: 0 auto;
+}
+
+.menu li {
+    list-style-type: none;
+    display: inline-block;
+    padding-right: 20px;
+}
+#logo {
+    text-transform: uppercase;
+    font-family: "Roboto", sans-serif;
+    font-weight: 600;
+    padding-right: 40px;
+    letter-spacing: -0.05em;
+}
+
+.header {
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.banner {
+    background: url(img/pic8.jpg);
+    padding: 40px;
+    text-align: center;
+}.banner img {
+    width: 300px;
+    height: 70px;
+}
+.banner h1 {
+    color: white;
+    font-size: 60px;
+    padding: 40px 0px;
+    text-transform: uppercase;
+    letter-spacing: 0.13em;
+    font-weight: 500;
+}
+.banner p {
+    color: white;
+    letter-spacing: 0.35em;
+    text-transform: uppercase;
+    opacity: 0.9;
+
+}
+.btn-shop {
+    background-color: #a05840;
+    color: white;
+    padding: 10px 30px;
+    margin-top: 20px;
+    border: none;
+    text-transform: capitalize;
+}
+.product {
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    column-gap: 50px;
+    margin: 20px 0px;
+}
+.card{
+    background-color: white;
+    text-align: center;
+}
+.card img {
+    width: 100%;
+    height: 280px;
+}
+.btn-col {
+    margin-top: 0px;
+}
+.title {
+    padding: 20px 0px 30px 0px;
+    position: relative;
+    letter-spacing: 0.25em;
+}
+.title::after {
+    content: "";
+    width: 23px;
+    height: 5px;
+    background-color: #a05840;
+    position: absolute;
+    left: 192px;
+    top: 50px;
+}
+.width-50{
+    width: 50%;
+    
+}
+.about-row {
+    display: flex;
+    justify-content: center;
+    height: 350px;
+}
+.about-row-2 {
+    display: flex;
+    justify-content: center;
+    height: 400px;
+}
+.about-info {
+    background-color: white;
+}
+.about-info-2 {
+    background-color: #123133;
+}
+.about-info h4 {
+    padding: 50px 0px 30px 0px;
+    position: relative;
+    letter-spacing: 0.28em;
+    text-align: center;
+    font-weight: 400;
+    color: #cfab9c;
+  
+}
+.about-info h4::after {
+    content: "";
+    width: 23px;
+    height: 5px;
+    background-color: #a05840;
+    position: absolute;
+    top: 88px;
+    left: 321px;
+}
+.about-info-2 h4 {
+    color: white;
+    text-align: center;
+    display: flex;
+    padding: 70px 150px 0px 150px;
+    font-size: 50px;
+    font-weight: 450;
+    justify-content: center;
+}
+.about-info-2 button {
+    position: relative;
+    margin: 20px 260px 0px;
+    background-color: white;
+    color: #123133;
+    padding: 5px 30px 5px 30px;
+}
+
+.about-info p {
+    color: #cfab9c;
+    padding: 20px 120px 10px 120px;
+    text-align: center;
+    font-size: 12px;
+    line-height: 22px;
+}
+.about-img {
+    display: flex;
+    justify-content: center;
+   
+}
+#img {
+    width: 100%;
+}
+
+.formsign {
+    background-image: url(img/pic2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 620px;
+   
+}
+.formsign-box {
+    top: 80px;
+    position: relative;
+    margin: 0px 350px;
+    background-color: #fafafa;
+    opacity: 0.9;
+}
+.formsign-box h4 {
+    position: relative;
+    text-align: center;
+
+}
+.formsign-2col {
+    display: flex;
+    justify-content: center;
+    margin: 20px 20px 10px 30px;
+}
+.formsign-2col p {
+    position: relative;
+    
+    padding: 20px 0px 5px 0px;
+    font-size: 13px;
+    color: black;
+   
+}
+.formsign-2col input {
+   width: 96%;
+   height: 25px;
+}
+.formsign-box h4 {
+    color:#cfab9c ;
+    letter-spacing: 0.4em;
+    padding: 20px;
+}
+.formsign-box h4::after {
+    content: "";
+    width: 23px;
+    height: 5px;
+    background-color: #a05840;
+    position: absolute;
+    top: 60px;
+    left: 303px;
+    font-weight: 200;
+}
+.formsign-info {
+    padding: 0px 20px 0px 30px;
+}
+.formsign-info p {
+    padding-bottom: 5px;
+    font-size: 13px;
+    color: black;
+}
+.formsign-info input {
+    width: 98%;
+    height: 25px;
+    margin-bottom: 5px;
+
+}
+.height-300 {
+    height: 100px !important;
+}
+.formsign-btn-icon {
+   width: 100%;
+   margin: 0 !important;
+}
+.formsign-btn {
+    padding: 0 30px 30px 30px;
+}
+.let-chat {
+    position: relative;
+    bottom: -91px;
+    float: right;
+    right: -20px;
+}
